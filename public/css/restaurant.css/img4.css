@@ -1,0 +1,8 @@
+.img4 .box-cont {
+    width: 105vh;
+    height: 51vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 25vh auto;
+    padding: 20px 10px;
+    overflow: hidden;
+}

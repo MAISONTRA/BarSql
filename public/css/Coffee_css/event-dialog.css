@@ -1,0 +1,71 @@
+.event-dialog {
+    width: 100%;
+    height: 500%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 998;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.event-dialog .popup-content {
+    width: 81vh;
+    height: 86vh;
+    background-color: blanchedalmond;
+    position: fixed;
+    z-index: 999;
+    top: calc(30% - 22vh);
+    left: calc(40% - 20vh);
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.event-dialog .popup-content .dialog-close {
+    float: right;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -25px;
+    margin-right: -23px;
+}
+
+.event-dialog .popup-content .dialog-close {
+    cursor: pointer;
+}
+
+.popup-content .infor .title-big span {
+    border-top: 1px solid #3c3c3c;
+    border-bottom: 1px solid #3c3c3c;
+    padding: 5px;
+}
+
+.popup-content .infor .title-big {
+    text-align: center;
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: 500px;
+    color: #FF0099;
+    margin-bottom: 15px;
+}
+
+.popup-content .content {
+    margin-top: 3vh;
+}
+
+.popup-content .content .product {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.popup-content .content .product img {
+    width: 70vh;
+    height: 64vh;
+}

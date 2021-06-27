@@ -1,0 +1,53 @@
+.content {
+    margin: 0px 220px;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    /* position: absolute;
+    z-index: 1; */
+}
+
+.content .top__selection {
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.content .top__selection img {
+    width: 64px;
+    height: 65px;
+}
+
+.content .bottom__selection .MST-restaurant {
+    display: inline-block;
+}
+
+.content .bottom__selection .MST-coffee {
+    display: inline-block;
+}
+
+
+.content .top__selection:hover {
+    cursor: pointer;
+}
+
+.content .top__selection:hover a {
+    box-shadow: 30px 5px 90px 55px rgb(255 235 59 / 70%);
+}
+
+.content .MST-restaurant:hover {
+    cursor: pointer;
+}
+
+.content .MST-restaurant:hover a {
+    box-shadow: 30px 5px 90px 55px rgb(255 235 59 / 70%);
+}
+
+.content .MST-coffee:hover {
+    cursor: pointer;
+}
+
+.content .MST-coffee:hover a {
+    box-shadow: 30px 5px 90px 55px rgb(255 235 59 / 70%);
+}

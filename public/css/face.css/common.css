@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.felx-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fix-rgba {
+    display: block;
+    height: 100px;
+    width: 0.01px;
+    box-shadow: 30px 5px 90px 55px #ecb7b7;
+}
+
+.fix-type {
+    /* width: 150px; */
+    height: 24px;
+    color: #fff;
+    font-size: 25px;
+    margin-left: -41px;
+    font-weight: 500;
+    text-transform: uppercase;
+}

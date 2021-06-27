@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.app_coffee {
+    position: relative;
+}
+
+.list-page {
+    position: relative;
+    width: 100%;
+}
+
+.bg-image {
+    /* Full height */
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 280px;
+    padding-right: 20px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Images used */
+.img1 {
+    background-image: url("./coffee-img/coffee-img1.jpg");
+    height: 100vh;
+}
+
+.img2 {
+    background-image: url("./coffee-img/coffee-img2.jpg");
+    height: 100vh;
+}
+
+.img3 {
+    background-image: url("./coffee-img/coffee-img3.jpg");
+    height: 100vh;
+}
+
+.img4 {
+    background-image: url("./coffee-img/coffee-img4.jpg");
+    height: 100vh;
+}
+
+.img5 {
+    /* background-color: #000;
+    height: 100vh;
+    width: 100vh; */
+
+    background-image: url("./coffee-img/den.jpg");
+    height: 100vh;
+}
+
+
+
+
+
+/* Position text in the middle of the page/image */
+.bg-name {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+    margin: auto;
+}
+
+.bgdemo {
+
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+
+}
+
+.list-page .bg-selection {
+    width: calc(100% - 280px);
+    margin-left: 140px;
+    /* padding-left: 280px; */
+    padding-right: 20px;
+}
+
+.box-sp
+{
+    display: none;
+}

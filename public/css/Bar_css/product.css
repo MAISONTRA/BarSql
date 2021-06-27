@@ -1,0 +1,130 @@
+.back {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.back button {
+    background: #cea225;
+    border: 1px solid #cea225;
+    border-radius: 3px;
+    color: #fff;
+    padding: 4px 10px
+}
+
+.back button:hover {
+    border: 1px solid #4CAF50;
+    background: #4CAF50
+}
+
+.menu-super-bar-wrapper {
+    background-image: url(../Coffee_css/coffee-img/coffee-img4.jpg);
+    height: 100vh;
+    overflow: auto;
+    display: flex
+}
+
+.menu-super-bar-wrapper .menu-super-bar {
+    max-width: 700px;
+    margin: auto;
+    background-color: #f1e8d9;
+    background: #fff
+}
+
+.menu-super-bar-wrapper .menu-super-bar {
+    padding: 30px
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-super-bar-border-1 {
+    border: 3px solid;
+    padding: 5px
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-super-bar-border-2 {
+    border: 1px solid;
+    padding: 20px
+}
+
+.menu-super-bar-wrapper .menu-super-bar .title {
+    margin-bottom: 10px;
+    position: relative;
+    font-weight: 600;
+    color: #cea225;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-item {
+    margin-bottom: 15px
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-item .title-price {
+    display: flex;
+    color: #cea225;
+    font-weight: 700;
+    width: 100%
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-item .title-price .item-price {
+    width: 70px;
+    text-align: right
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-item .title-price .item-price span.opr {
+    color: #ccc;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 12px
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-item .title-price .item-title {
+    width: calc(100% - 70px);
+    margin-right: 10px;
+    text-align: left
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-item .item-content {
+    text-align: left;
+    line-height: 1.8
+}
+
+.menu-super-bar-wrapper .menu-super-bar .menu-item .item-content p {
+    margin: 0
+}
+
+.menu-super-bar-wrapper .pagi-menu {
+    display: flex
+}
+
+.menu-super-bar-wrapper .pagi-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: auto
+}
+
+.menu-super-bar-wrapper .pagi-menu ul li {
+    display: inline-block;
+    text-align: center
+}
+
+.menu-super-bar-wrapper .pagi-menu ul li.disabled {
+    display: none
+}
+
+.menu-super-bar-wrapper .pagi-menu ul li.active a,
+.menu-super-bar-wrapper .pagi-menu ul li:hover a {
+    color: #fff !important;
+    background: #cea225;
+    border: 1px solid #cea225
+}
+
+.menu-super-bar-wrapper .pagi-menu ul li a {
+    color: #337ab7;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 6px 11px;
+    border: 1px solid #333333;
+    border-radius: 50%
+}

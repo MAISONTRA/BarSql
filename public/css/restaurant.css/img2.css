@@ -1,0 +1,31 @@
+.img2 .box-cont {
+    width: 70vh;
+    height: 83vh;
+    margin-top: 35px;
+    padding: 2vh 1vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: right;
+    /* margin-left: calc(50% + 145px); */
+}
+
+.img2 .box-cont .c-tit {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.img2 .box-cont .c-cont
+{
+    width: 67vh;
+    height: 75vh;
+    overflow-y: hidden;
+}
+
+.img2 .box-cont .c-cont p {
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    line-height: 1.6;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+}

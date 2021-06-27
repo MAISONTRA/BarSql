@@ -1,0 +1,39 @@
+@import url("common_coffee.css");
+@import url("coffee.css");
+@import url("navigation_coffee.css");
+@import url("more-dialog.css");
+@import url("oder-dialog.css");
+@import url("img2.css");
+@import url("img3.css");
+@import url("img4.css");
+@import url("img5.css");
+@import url("event-dialog.css");
+@import url("fix.css");
+@import url("product.css");
+@import url('hotline.css');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: 'GoogleSans-Medium';
+    src: url(../content/font/GoogleSans-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url(../content/font/GoogleSans-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url(../content/font/GoogleSans-Italic.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-BoldItalic';
+    src: url(../content/font/GoogleSans-BoldItalic.otf) format('opentype');
+}

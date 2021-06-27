@@ -1,0 +1,54 @@
+.oder-dialog {
+  width: 100%;
+  height: 500%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: 998;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.oder-dialog .popup-content {
+  width: 700px;
+  height: 410px;
+  background-color: blanchedalmond;
+  position: fixed;
+  z-index: 999;
+  top: calc(47% - 175px);
+  left: calc(40% - 175px);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.oder-dialog .popup-content .dialog-close {
+  float: right;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 30px;
+  margin-top: -26px;
+  margin-right: -23px;
+}
+
+.oder-dialog .popup-content .dialog-close :hover {
+  cursor: pointer;
+}
+
+.time2 {
+  display: block;
+}
+
+.submit:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.submit:hover input {
+  cursor: pointer;
+}

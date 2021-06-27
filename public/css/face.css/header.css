@@ -1,0 +1,23 @@
+.header {
+    margin: 0px 220px;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    /* position: absolute;
+    z-index: 1; */
+
+}
+
+.header .header__selection {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.5;
+
+}
+
+.header .header__des {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    line-height: 1.5;
+}

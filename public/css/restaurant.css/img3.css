@@ -1,0 +1,55 @@
+.img3 .box-cont {
+    width: 76vh;
+    height: 84vh;
+    padding: 35px 10px;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+
+.img3 .box-cont .box-title {
+    text-align: center;
+}
+
+.img3 .box-cont .box-title span {
+    font-size: 30px;
+    text-align: center;
+    color: #cea225;
+    font-weight: 700;
+    padding: 5px 20px 7px 20px;
+    border-top: 1px solid #cea225;
+    border-bottom: 1px solid #cea225;
+}
+
+.img3 .box-cont .box-body {
+    margin-top: 2px;
+    width: 73.5vh;
+    height: 69vh;
+}
+
+.box-cont .box-body .list-menu {
+    margin: 20px 0px;
+    padding: 0px 20px;
+    width: 74vh;
+    height: 61vh;
+    overflow: hidden;
+}
+
+.box-body .list-menu .menu-item {
+    margin-bottom: 10px;
+}
+
+.list-menu .menu-item .item-title {
+    font-size: 15px;
+    color: #cea225;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.list-menu .menu-item .item-cont {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+}
