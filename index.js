@@ -66,7 +66,7 @@ app.get('/hot-restaurant-drink', function (req, res) {
 app.post("/order", function (req, res) {
     console.log(req.body);
     var user = req.body;
-    var updateUser = "INSERT INTO barhn (name, sdt, time ,numbertable , message) VALUES('"+user.name+"',"+"'"+user.phone+"'"+','+"'"+user.time+"'"+','+"'"+user.numberTable+"','+'"+user.numberTable+"')";
+    var updateUser = "INSERT INTO barhn (name, sdt, time ,numbertable , message) VALUES('"+user.name+"',"+"'"+user.phone+"'"+','+"'"+user.time+"'"+','+"'"+user.numbertable+"','+'"+user.numberTable+"')";
     con.query(updateUser, function (err, result, fields) {
         if (err) {throw err;}
         else {
